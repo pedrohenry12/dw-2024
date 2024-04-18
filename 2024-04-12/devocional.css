@@ -43,9 +43,17 @@
 .importante {
     font-size: 1.4em;
     font-weight: bold;
+    color: green;
 }
 
 .desafio {
     font-style: italic;
+    border: 2px solid rgb(172, 172, 172);
+    background-color: rgb(172, 172, 172);
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
+.alinhamento {
+    text-align: center;
+}
