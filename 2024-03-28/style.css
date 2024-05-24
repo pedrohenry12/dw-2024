@@ -9,7 +9,9 @@
 
             color: rgb(12, 12, 12);
             text-align: justify;
-            font-family: Arial, Helvetica, sans-serif;
+            /* font-family define o estilo da fonte */
+            font-family: Arial, Helvetica, sans-serif;  
+            
         }
         span {
             color: blueviolet;
