@@ -5,93 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<style>
+    <link rel="stylesheet" href="menu.css">
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --cor-secao1: #C5D5EA;
-    --cor-menu: #759EB8;
-    --cor-secao2: #7392B7;
-    --cor-secao3: #B3C5D7;
-    --cor-contato: #D8E1E9;
-
-
-
-
-}
-.conteiner {
-    background-color: var(--cor-secao1);
-    width: 100vw;
-    height: 100vh;
-}
-
-.principal {
-    background-color: var(--cor-menu);
-    height: 80px;
-}
-
-.principal ul{
-    display: flex;
-    justify-content: center;
-}
-
-.principal li{
-    list-style: none;
-}
-
-.principal a{
-    display: inline-block;
-    padding: 25px 15px;
-    text-decoration: none;
-    color: white;
-    transition: 0.3s;
-}
-
-.principal a:hover {
-    background-color: white;
-    color: black;
-
-}
-
-.secao1 {
-    background-color: var(--cor-secao1);
-    height: 100vh;
-    width: 100vw;
-}
-
-.secao2 {
-    background-color: var(--cor-secao2);
-    height: 100vh;
-    width: 100vw;
-}
-
-.secao3 {
-    background-color: var(--cor-secao3);
-    height: 100vh;
-    width: 100vw;
-}
-
-.contato {
-    background-color: var(--cor-contato);
-    height: 30vh;
-    width: 100vw;
-}
-
-h1{
-    text-align: center;
-}
-
-
-
-
-
-
-</style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 
 
 </head>
@@ -100,29 +18,26 @@ h1{
         <div class="principal">
             <ul id="menu">
                 <li><a href="">Home</a></li>
-                <li><a href="">Seção 1</a></li>
-                <li><a href="">Seção 2</a></li>
-                <li><a href="">Seção 3</a></li>
-                <li><a href="">Contatos</a></li>
+                <li><a href="#secao1">Introdução</a></li>
+                <li><a href="#secao2">Cultura</a></li>
+                <li><a href="#secao3">Biodiversidade</a></li>
+                <li><a href="#contatos">Contatos</a></li>
 
 
 
             </ul>
         </div>
 
-        <div class="secao1">
-            <h1>SEÇÃO PRINCIPAL</h1>
-            <p>O estado do Tocantins, localizado na região Norte do Brasil, é um dos mais jovens do país, tendo sido criado em 1988 com a Constituição Federal. Sua capital é Palmas, uma cidade planejada que foi construída para ser a sede administrativa do estado. Tocantins faz fronteira com os estados de Maranhão, Piauí, Bahia, Goiás, Mato Grosso e Pará.
+        <div class="secao1" id="secao1">
+            <h1>INTRODUÇÃO AO PARANÁ</h1>
+            <P class="oswald">O estado do Paraná, localizado na região Sul do Brasil, é conhecido por sua diversidade cultural, paisagens exuberantes e economia dinâmica. Com uma área de 199.307,9 km², o Paraná é o quinto estado mais populoso do país, abrigando mais de 11 milhões de habitantes. Sua capital, Curitiba, é frequentemente destacada pela qualidade de vida, planejamento urbano e sustentabilidade ambiental.</P> <P>O Paraná possui um clima subtropical, com verões quentes e invernos amenos, e sua geografia varia desde planícies até montanhas, incluindo as majestosas Cataratas do Iguaçu, uma das sete maravilhas naturais do mundo.</P> <P>A economia paranaense é robusta, com destaque para a agricultura, especialmente na produção de soja, milho e café, além de um setor industrial diversificado e em constante crescimento.</P> <P>Cidades como Londrina, Maringá e Foz do Iguaçu são importantes centros urbanos que contribuem para o desenvolvimento econômico e cultural do estado.</P> <P>Com uma rica herança cultural influenciada por diversas etnias, o Paraná é um estado que combina tradição e modernidade, oferecendo um cenário único e vibrante no contexto brasileiro.</P>
 
-                Geograficamente, Tocantins se destaca por sua vasta área de cerrado, além de possuir importantes rios como o Tocantins e o Araguaia, que são essenciais para a navegação e a pesca. O estado também abriga o Jalapão, uma região conhecida por suas paisagens exuberantes, com dunas, chapadões, cachoeiras e rios de águas cristalinas, atraindo muitos turistas e aventureiros.
-                
-                A economia do Tocantins é diversificada, com forte presença da agropecuária, especialmente na produção de soja, milho e pecuária de corte. O estado também tem investido no desenvolvimento do setor de serviços e no potencial turístico, aproveitando suas belezas naturais.
-                
-                Culturalmente, o Tocantins é rico em tradições, influenciado pelas culturas indígenas, sertanejas e pelas migrações internas de outras partes do Brasil. As festas populares, como a Cavalhada e o Festival de Folias de Reis, são eventos importantes que refletem essa diversidade cultural.
-                
-                Em termos de infraestrutura, Tocantins tem se modernizado rapidamente, com investimentos em rodovias, energia e telecomunicações, buscando integrar melhor suas regiões e fomentar o desenvolvimento econômico. A criação do estado também trouxe melhorias significativas na área de educação e saúde, embora ainda existam desafios a serem superados.
-                
-                Em suma, o Tocantins é um estado em crescimento, com grande potencial econômico e turístico, além de uma rica herança cultural que contribui para a diversidade do Brasil.
+
+
+
+
+
+
                 
                 
                 
@@ -134,35 +49,58 @@ h1{
         
         
         </div>
-        <div class="secao2">
-            <h1>SEÇÃO 2</h1>
-            <p>A Universidade Tecnológica Federal do Paraná (UTFPR) é uma instituição de ensino superior pública federal, especializada em cursos de tecnologia e engenharias. Fundada em 1909 como Escola de Aprendizes Artífices, a UTFPR passou por várias transformações ao longo dos anos, tornando-se Centro Federal de Educação Tecnológica (CEFET-PR) em 1978 e, finalmente, adquirindo o status de universidade tecnológica em 2005.
+        <div class="secao2" id="secao2">
+            <h1>CULTURA PARANAENSE</h1>
+            <P>A cultura paranaense é uma vibrante mistura de tradições e influências de diversas etnias que se estabeleceram na região ao longo dos séculos. Os povos indígenas, como os Guarani e Kaingang, foram os primeiros habitantes e suas tradições ainda são preservadas em várias comunidades. Com a colonização europeia, o Paraná recebeu imigrantes portugueses, italianos, alemães, ucranianos, poloneses e japoneses, entre outros, cada grupo contribuindo com seus costumes, culinária, festivais e artes.</P>
 
-                Com sede em Curitiba, a UTFPR possui vários câmpus distribuídos pelo estado do Paraná, incluindo cidades como Londrina, Ponta Grossa, Cornélio Procópio, Campo Mourão e outras. Essa ampla presença regional facilita o acesso ao ensino superior de qualidade e promove o desenvolvimento tecnológico e econômico em diversas partes do estado.
-                
-                A UTFPR oferece uma variedade de cursos de graduação e pós-graduação, com foco em áreas tecnológicas, engenharias, ciências aplicadas e gestão. A universidade é reconhecida pela excelência em ensino, pesquisa e extensão, preparando profissionais altamente qualificados para o mercado de trabalho e contribuindo significativamente para a inovação e o desenvolvimento sustentável.
-                
-                Além de suas atividades acadêmicas, a UTFPR se destaca pelo envolvimento em projetos de pesquisa e desenvolvimento, parcerias com empresas e instituições, e pelo incentivo ao empreendedorismo e à inovação. A instituição também promove diversos programas de extensão comunitária, buscando sempre a interação com a sociedade e a solução de problemas reais.
-                
-                Em resumo, a UTFPR é uma referência no ensino tecnológico no Brasil, comprometida com a formação de profissionais competentes e com o avanço científico e tecnológico, desempenhando um papel crucial no desenvolvimento regional e nacional.</p>
+            <P>As festas tradicionais são um reflexo dessa diversidade cultural, destacando-se a Festa da Uva em Curitiba, a Oktoberfest em Rolândia e a Festa Nacional do Carneiro no Buraco em Campo Mourão. A culinária paranaense também é um mosaico de sabores, com pratos típicos como o barreado, uma carne cozida lentamente e servida com farinha de mandioca e banana, e o tradicional chimarrão, herdado dos gaúchos.</P>
+            
+            <P>Além disso, o Paraná possui uma rica produção artística e literária, com escritores renomados como Dalton Trevisan e Helena Kolody, e uma cena musical diversa que abrange desde a música folclórica até o rock e a música eletrônica. As artes visuais e o teatro também têm um espaço significativo, com museus, galerias e teatros renomados, como o Museu Oscar Niemeyer e o Teatro Guaíra em Curitiba.</P>
+            
+            <P>A cultura paranaense é, portanto, um caleidoscópio de tradições e modernidades que refletem a história rica e diversa do estado, celebrando a união e a convivência harmoniosa de diferentes povos e suas contribuições para a identidade regional.</P>
+            
+            
+            
+            
+            
+            
+            
+
+
+
+
+
+
                 <a href="#menu">Voltar</a>
 
         </div>
-        <div class="secao3">
-            <h1>SEÇÃO 3</h1>
-            <p>Jesus de Nazaré é uma figura central no cristianismo, sendo reverenciado como o Filho de Deus e o Messias (Cristo) prometido nas escrituras hebraicas. Segundo os Evangelhos do Novo Testamento, Jesus nasceu em Belém, na Judeia, por volta do início do século I, e passou a maior parte de sua vida em Nazaré, na Galileia.
+        <div class="secao3" id="secao3">
+            <h1>BIODIVERSIDADE PARANAENSE</h1>
+            <p>A biodiversidade paranaense é um tesouro de riqueza natural que se manifesta através de uma ampla variedade de ecossistemas e espécies. Localizado na região Sul do Brasil, o Paraná abriga biomas variados, como a Mata Atlântica, o Cerrado e os Campos Gerais, cada um com sua própria fauna e flora característica.</p>
 
-                Jesus é conhecido por seus ensinamentos, que enfatizam o amor, o perdão, a misericórdia e a justiça. Ele realizou muitos milagres, como curar os enfermos, alimentar multidões e ressuscitar os mortos, demonstrando seu poder divino. Seus ensinamentos e parábolas, como o Sermão da Montanha e a Parábola do Bom Samaritano, têm influenciado profundamente a moral e a ética ocidentais.
-                
-                A vida de Jesus culminou em sua crucificação em Jerusalém, sob a autoridade do governador romano Pôncio Pilatos. Os cristãos acreditam que sua morte expiatória e subsequente ressurreição, três dias depois, são os eventos fundamentais para a redenção da humanidade, oferecendo a promessa de vida eterna.
-                
-                Jesus é também uma figura histórica amplamente estudada e discutida. Enquanto a fé cristã afirma sua divindade, muitos estudiosos examinam sua vida no contexto do judaísmo do Segundo Templo e do Império Romano.
-                
-                Além de ser a figura central do cristianismo, Jesus é respeitado como um grande profeta no islamismo e tem impacto cultural e religioso que transcende fronteiras e épocas, inspirando milhões de pessoas em todo o mundo.</p>
-                <a href="#menu">Voltar</a>
+            <p>A Mata Atlântica, que cobre uma parte significativa do estado, é um dos biomas mais biodiversos do mundo, com uma grande quantidade de espécies endêmicas. Entre os animais, destacam-se a onça-pintada, o mico-leão-da-cara-preta, e várias espécies de aves e insetos. Em termos de flora, é possível encontrar araucárias, imponentes árvores típicas da região, além de uma infinidade de plantas medicinais e ornamentais.</p>
+
+            <p>Os parques nacionais, como o Parque Nacional do Iguaçu, famoso pelas Cataratas do Iguaçu, e o Parque Nacional de Superagüi, são áreas protegidas que conservam importantes remanescentes da Mata Atlântica e servem de habitat para muitas espécies ameaçadas de extinção. O Parque Estadual de Vila Velha, com suas formações rochosas únicas e vegetação de cerrado, é outro exemplo de conservação da biodiversidade no estado.</p>
+
+            <p>Os rios paranaenses, como o Paraná e o Iguaçu, além de serem fundamentais para a economia e o abastecimento de água, também são ricos em biodiversidade aquática. Essas áreas aquáticas são habitat de diversas espécies de peixes, anfíbios e aves.</p>
+
+            <p>A biodiversidade paranaense, portanto, não só enriquece o patrimônio natural do estado, mas também desempenha um papel crucial na manutenção dos serviços ecossistêmicos e na promoção do ecoturismo, atraindo visitantes de todo o mundo para conhecer suas paisagens e a vida selvagem exuberante. A preservação desses ambientes é vital para assegurar que futuras gerações possam continuar a desfrutar e aprender com essa riqueza natural.</p>
+           
+        <a href="#menu">Voltar</a>
         
         </div>
-        <div class="contato"><h1>CONTATOS</h1></div>
+        <div class="contato" id="contatos">
+            <p>telefone: 4499985003</p>
+            <p>email: empresa@gmail.com</p>
+            endereço: Av. Leonidas Pereira n°304
+            <p>cep: 87260-000</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <a href="#menu">Voltar</a>
+        </div>
 
 
 

@@ -1,0 +1,88 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-secao1: #C5D5EA;
+    --cor-menu: #759EB8;
+    --cor-secao2: #7392B7;
+    --cor-secao3: #B3C5D7;
+    --cor-contato: #D8E1E9;
+    --fonte-titulo: 25px "Oswald";
+
+
+
+
+}
+.conteiner {
+    background-color: var(--cor-secao1);
+    width: 100vw;
+    height: 100vh;
+}
+
+.principal {
+    background-color: var(--cor-menu);
+    height: 80px;
+}
+
+.principal ul{
+    display: flex;
+    justify-content: center;
+}
+
+.principal li{
+    list-style: none;
+}
+
+.principal a{
+    display: inline-block;
+    padding: 25px 15px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.principal a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.secao1 {
+    background-color: var(--cor-secao1);
+    height: 100vh;
+    width: 100vw;
+    text-indent: 1em;
+    
+}
+
+.secao2 {
+    background-color: var(--cor-secao2);
+    height: 100vh;
+    width: 100vw;
+    text-indent: 1em;
+}
+
+.secao3 {
+    background-color: var(--cor-secao3);
+    height: 100vh;
+    width: 100vw;
+    text-indent: 1em;
+}
+
+.contato {
+    background-color: var(--cor-contato);
+    height: 30vh;
+    width: 100vw;
+}
+
+h1{
+    text-align: center;
+    font: var(--fonte-titulo);
+}
+
