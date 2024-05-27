@@ -1,6 +1,4 @@
 
-
-
 * {
     padding: 0;
     margin: 0;
@@ -13,7 +11,8 @@
     --cor-secao2: #7392B7;
     --cor-secao3: #B3C5D7;
     --cor-contato: #D8E1E9;
-    --fonte-titulo: 25px "Oswald";
+    --fonte-titulo: 45px "Oswald";
+    --fonte-paragrafo: 15px "Playfair Display";
 
 
 
@@ -86,3 +85,6 @@ h1{
     font: var(--fonte-titulo);
 }
 
+p {
+    font: var(--fonte-paragrafo);
+}
