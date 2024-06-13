@@ -9,10 +9,7 @@
 }
 
 :root {
-    --cor-secao1: #C5D5EA;
     --cor-menu: #759EB8;
-    --cor-secao2: #7392B7;
-    --cor-secao3: #B3C5D7;
     --cor-contato: #D8E1E9;
     --fonte-titulo: 45px "Oswald";
     --fonte-paragrafo: 22px "Playfair Display";
@@ -25,13 +22,14 @@ h1{
     text-align: center;
 }
 .conteiner {
-    background-color: var(--cor-secao1);
+    background: linear-gradient(to right, #a8ff78, #78ffd6);
     width:100vw;
-    height: 100vh;
+    height: 100%;
+    /* background-color: blue; */
 }
 
 .principal {
-    background-color: var(--cor-menu);
+    background-color: var(--cor-menu); 
     height: 80px;
 }
 
@@ -60,9 +58,8 @@ h1{
 
 }
 
-.secao1 p img{
-    background-color: var(--cor-secao1);
-    height: 80vh;
+.secao1 {
+    height: calc(100%- 80px);
     width: 100vw;
     text-indent: 1em;
     display: flex;
@@ -71,16 +68,8 @@ h1{
     
 }
 
-.secao1 p{
-    margin-right: 15px;
-}
-
-
-
-
-
 .secao2 {
-    background-color: var(--cor-secao2);
+    /* background-color: var(--cor-secao2); */
     height: 100vh;
     width: 100vw;
     text-indent: 1em;
@@ -88,7 +77,7 @@ h1{
 }
 
 .secao3 {
-    background-color: var(--cor-secao3);
+    /* background-color: var(--cor-secao3); */
     height: 100vh;
     width: 100vw;
     text-indent: 1em;
@@ -113,9 +102,4 @@ p {
 
 
 
-.flex-center{
-    /* abilita a edição */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
