@@ -3,77 +3,70 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        .container{
+
+
+        .conteiner{
             display: flex;
             flex-wrap: wrap;
+            flex-direction: column;
+            height: 100vh;
+            width: 100vw;
         }
 
-        :root {
+        :root{
+            --largura-sidebar: 8.125rem;
             --altura-topo: 5.625rem;
-            --largura-sidebar: 6.25rem;
             --altura-rodape: 5.625rem;
         }
-
-        header{
-            height: var(--altura-topo);
-            width: 100vw;
-            background-color: yellow;
-        }
-        aside {
-            height: calc(100vh - var(--altura-rodape) - var(--altura-topo));
+        aside{
+            height: 100vh;
             width: var(--largura-sidebar);
             background-color: blue;
         }
+        header{
+            height: var(--altura-topo);
+            width: calc(100vw - var(--largura-sidebar));
+            background-color: yellow;
+        }
         main{
-            height: calc(100vh - var(--altura-rodape) - var(--altura-topo));
-            width: calc(100% - var(--largura-sidebar));
+            height: calc(100vh - var(--altura-topo) - var(--altura-rodape));
+            width: calc(100vw - var(--largura-sidebar));
             background-color: green;
         }
         footer{
             height: var(--altura-rodape);
-            width: 100%;
+            width: calc(100% - var(--largura-sidebar));
             background-color: red;
-
-
         }
-        .meio{
-            display: flex;
-        }
-
-
     </style>
+
 </head>
 
 <body>
-    
     <div class="conteiner">
+        <aside>
+            <h1>Sidebar</h1>
+        </aside>
         <header>
             <h1>topo</h1>
         </header>
-        <div class="meio">
-            <aside>
-                <h1>Sidebar</h1>
-            </aside>
-            <main>
-                <h1>Conteúdo</h1>
-            </main>
-        </div>
+        <main>
+            <h1>Conteúdo</h1>
+        </main>
         <footer>
             <h1>Rodapé</h1>
         </footer>
     </div>
-    
-
-
-
 
 </body>
 
